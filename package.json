@@ -20,9 +20,11 @@
   },
   "homepage": "https://github.com/peterbartha/vercel-bun#readme",
   "scripts": {
+    "build": "tsc",
     "format": "prettier --write --ignore-unknown ."
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
   }
 }
