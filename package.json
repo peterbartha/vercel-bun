@@ -8,7 +8,11 @@
     "serverless",
     "runtime"
   ],
+  "type": "module",
   "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "author": "Peter Bartha",
   "license": "MIT",
   "repository": {
@@ -26,9 +30,14 @@
     "format": "prettier --write --ignore-unknown .",
     "prepare": "husky install"
   },
+  "dependencies": {
+    "fflate": "^0.7.4",
+    "node-fetch": "^3.3.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
+    "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
     "eslint": "^8.26.0",
