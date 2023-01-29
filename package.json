@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/peterbartha/vercel-bun#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write --ignore-unknown ."
+  },
+  "devDependencies": {
+    "prettier": "^2.8.3"
   }
 }
