@@ -1,0 +1,25 @@
+{
+  "name": "vercel-bun",
+  "version": "0.0.0",
+  "description": "Bun runtime for ▲ Vercel Serverless Functions",
+  "keywords": [
+    "vercel",
+    "bun",
+    "serverless",
+    "runtime"
+  ],
+  "main": "index.js",
+  "author": "Peter Bartha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterbartha/vercel-bun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peterbartha/vercel-bun/issues"
+  },
+  "homepage": "https://github.com/peterbartha/vercel-bun#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
