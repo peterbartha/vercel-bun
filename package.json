@@ -8,7 +8,11 @@
     "serverless",
     "runtime"
   ],
+  "type": "module",
   "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "author": "Peter Bartha",
   "license": "MIT",
   "repository": {
@@ -46,5 +50,9 @@
     "**/*.{html,yaml,json,css,md,mdx}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "fflate": "^0.7.4",
+    "node-fetch": "^3.3.0"
   }
 }
